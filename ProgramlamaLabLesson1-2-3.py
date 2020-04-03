@@ -223,6 +223,7 @@ def my_binary_search(my_list,item_search):
     denemesay=0
     while high>=low:
         mid=(high+low)//2
+        #print(low,mid,high) #hangi sayılarda gezdigini buluyoruz.
         denemesay+=1
         if (item_search==my_list[mid]):
             #print("deneme sayisi:",denemesay)
@@ -234,7 +235,7 @@ def my_binary_search(my_list,item_search):
     
     return found
 
-my_list_3=[-5,-4,2,5,6,9,11,13,18,21,23]
+my_list_3=[-5,2,-4,5,6,9,11,13,18,21,23]
 #my_list_3=[-5,-4,2,5,6,9,11,13,18,21,23] eğer böyle bir liste olsaydı deneme sayimiz=4 oluyordu (-4 ü aradıgımızı farz ederek)
 print(my_list_3)
 print(my_binary_search(my_list_3,-4))
@@ -255,7 +256,7 @@ print("")
 size=input("dizi boyutunu giriniz:")
 size=int(size) #convert to str to int
 
-my_list_5=get_n_random_numbers(size,-10,10)
+my_list_5=get_n_random_numbers(size,-100,100)
 
 #print("liste:",my_list_5)
 
@@ -267,23 +268,17 @@ def my_median(my_list_5):
     n=len(my_list_6)
 
     if (n%2==1):
-        middle=int(n/2)
-        median=my_list_6[middle]
+        middle=int(n/2)+1
+        median=my_list_6[middle-1]
         
 
     else:
-        middle_1=my_list_6[int(n/2)]
-        middle_2=my_list_6[int(n/2)+1]
-        median=((middle_1+middle_2)/2)
-    
+        middle_1=int(n/2)-1
+        middle_2=middle_1+1
+        median=(my_list_5[middle_1]+my_list_5[middle_2])/2
     return median
 
 
 print("medyan degeri:",my_median(my_list_5))
-
-
-
-
-
 
         
