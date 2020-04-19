@@ -1,0 +1,11 @@
+0. Uniform Distribution
+1. Binomial Distribution
+2. Poisson Distribution
+3. Exponential Distribution
+Yukarıdaki listede yaygın kullanılan olasılık dağılımlarından bazıları vardır.  Listede (Numaranız%4) değerindeki dağılımı , hafta_2 videosunda olduğu gibi
+
+a.) sympy kütüphanesi ile
+
+b.) normal klasik ( matpoltlib.pyplot) yöntem ile uygun aralıkta, uygun parametrelerle grafiklerini çiziniz.
+
+Ödev raporu yok, sadece kodunuzu sisteme yükleyin, açıklama için kod içerisine comment ler eklersiniz. Kodunuzda diğer comment lerin yanına , çalıştığınız olasılık dağılımını bir-iki cümle ile özetleyip ilgili parametreleri yazınız.
