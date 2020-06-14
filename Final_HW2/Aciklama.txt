@@ -1,0 +1,9 @@
+1.a) elemanı sayısı n değerini parametre olarak alıp, her bir elemanı int sayı olan n boyutlu bir vektör oluşturup return eden bir fonksiyon yazınız.
+
+1.b) iki tane vektör ü parametre olarak alıp bunların skaler çarpmasını return eden bir fonksiyon yazınız.
+
+1.c) a ve b de fonksiyonları kullanarak mx boyutlarında bir matris oluşturup ve bunu return eden fonksiyon yazınız. Mxn parametre olarak fonksiyona aktarılmalıdır.
+
+1.d) a,b,c de yazdığınız fonksiyonları kullarak kendisine aktarılan iki matrisi çarpan bir fonksiyon yazınız.
+
+1.e) a,b,c,d seçeneklerini test eden bir fonksiyon yazınız.
